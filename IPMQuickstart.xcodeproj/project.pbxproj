@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F34E0231C058733004917D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34E0221C058733004917D0 /* AppDelegate.swift */; };
+		1F34E0251C058765004917D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34E0241C058765004917D0 /* ViewController.swift */; };
+		1F34E0271C058788004917D0 /* IPMessagingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34E0261C058788004917D0 /* IPMessagingManager.swift */; };
 		AC90645A1BE92B0F0051B57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9064591BE92B0F0051B57F /* main.m */; };
-		AC90645D1BE92B0F0051B57F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90645C1BE92B0F0051B57F /* AppDelegate.m */; };
 		AC9064601BE92B0F0051B57F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC90645F1BE92B0F0051B57F /* ViewController.m */; };
 		AC9064631BE92B0F0051B57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9064611BE92B0F0051B57F /* Main.storyboard */; };
 		AC9064651BE92B0F0051B57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9064641BE92B0F0051B57F /* Assets.xcassets */; };
 		AC9064681BE92B0F0051B57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9064661BE92B0F0051B57F /* LaunchScreen.storyboard */; };
-		AC9064701BE92B310051B57F /* TwilioIPMessagingClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC90646F1BE92B310051B57F /* TwilioIPMessagingClient.framework */; settings = {ASSET_TAGS = (); }; };
+		AC9064701BE92B310051B57F /* TwilioIPMessagingClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC90646F1BE92B310051B57F /* TwilioIPMessagingClient.framework */; };
 		AC9064721BE92B3C0051B57F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9064711BE92B3C0051B57F /* libc++.tbd */; };
-		AC9064781BE92EA30051B57F /* IPMessagingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9064771BE92EA30051B57F /* IPMessagingManager.m */; settings = {ASSET_TAGS = (); }; };
-		AC90647E1BE961470051B57F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC90647D1BE961470051B57F /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		AC90647E1BE961470051B57F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC90647D1BE961470051B57F /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F34E0221C058733004917D0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F34E0241C058765004917D0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F34E0261C058788004917D0 /* IPMessagingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPMessagingManager.swift; sourceTree = "<group>"; };
 		AC9064551BE92B0F0051B57F /* IPMQuickstart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPMQuickstart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9064591BE92B0F0051B57F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AC90645B1BE92B0F0051B57F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AC90645C1BE92B0F0051B57F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AC90645E1BE92B0F0051B57F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AC90645F1BE92B0F0051B57F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AC9064621BE92B0F0051B57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,8 +34,6 @@
 		AC9064691BE92B0F0051B57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC90646F1BE92B310051B57F /* TwilioIPMessagingClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioIPMessagingClient.framework; sourceTree = "<group>"; };
 		AC9064711BE92B3C0051B57F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		AC9064761BE92EA30051B57F /* IPMessagingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPMessagingManager.h; sourceTree = "<group>"; };
-		AC9064771BE92EA30051B57F /* IPMessagingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPMessagingManager.m; sourceTree = "<group>"; };
 		AC90647D1BE961470051B57F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,12 +71,11 @@
 		AC9064571BE92B0F0051B57F /* IPMQuickstart */ = {
 			isa = PBXGroup;
 			children = (
-				AC90645B1BE92B0F0051B57F /* AppDelegate.h */,
-				AC90645C1BE92B0F0051B57F /* AppDelegate.m */,
+				1F34E0221C058733004917D0 /* AppDelegate.swift */,
 				AC90645E1BE92B0F0051B57F /* ViewController.h */,
 				AC90645F1BE92B0F0051B57F /* ViewController.m */,
-				AC9064761BE92EA30051B57F /* IPMessagingManager.h */,
-				AC9064771BE92EA30051B57F /* IPMessagingManager.m */,
+				1F34E0241C058765004917D0 /* ViewController.swift */,
+				1F34E0261C058788004917D0 /* IPMessagingManager.swift */,
 				AC9064611BE92B0F0051B57F /* Main.storyboard */,
 				AC90647D1BE961470051B57F /* logo.png */,
 				AC9064641BE92B0F0051B57F /* Assets.xcassets */,
@@ -121,6 +120,7 @@
 		AC90644D1BE92B0F0051B57F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Siraj Raval";
 				TargetAttributes = {
@@ -166,10 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F34E0251C058765004917D0 /* ViewController.swift in Sources */,
 				AC9064601BE92B0F0051B57F /* ViewController.m in Sources */,
-				AC90645D1BE92B0F0051B57F /* AppDelegate.m in Sources */,
-				AC9064781BE92EA30051B57F /* IPMessagingManager.m in Sources */,
+				1F34E0231C058733004917D0 /* AppDelegate.swift in Sources */,
 				AC90645A1BE92B0F0051B57F /* main.m in Sources */,
+				1F34E0271C058788004917D0 /* IPMessagingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +290,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Twilio.IPMQuickstart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -295,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,6 +330,7 @@
 				AC90646E1BE92B0F0051B57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
